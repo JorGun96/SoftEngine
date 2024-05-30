@@ -4,25 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6f2e5c6b3.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav class="container">
+        <img src="assets/img/logo-revou.png" alt="logo RevoU" width="40" height="40" />
+        <div class="nav-menu">
+            <div class="home">Home</div>
+            <div class="profile">My Profile</div>
+            <div class="portofolio">Portofolio</div>
+            <div class="message">Message Us</div>
+        </div>
+    </nav>
     <form action="" method="post">
         <label for="name">Name : </label>
         <input type="text" value="Name">
         <br>
         <label for="date">Tanggal Lahir : </label>
-        <input type="text" value="Tanggal Lahir">
+        <input type="date" value="Tanggal Lahir">
         <br>
         <label for="gender">Jenis Kelamin : </label>
-        <input type="radio">Laki - Laki
-        <input type="radio">Perempuan
-        <input type="radio">Tas Carrefour
+        <input type="checkbox">Laki - Laki
+        <input type="checkbox">Perempuan
+        <input type="checkbox">Tas Carrefour
         <br>
         <label for="message">Pesan : </label>
         <textarea rows="8" cols="64"></textarea>
         <br>
         <input type="submit" value="Submit" width="100">
     </form>
+
+
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>Tanggal Lahir</th>
+            <th>Jenis Kelamin</th>
+            <th>Pesan</th>
+            <th>Profil</th>
+            <th>Delete</th>
+        </tr>
+
+        <tr>
+            <td>ADA LOVELACE</td>
+            <td>Desember 10, 1885</td>
+            <td>Perempuan</td>
+            <td>Test</td>
+            <td><a href="#">Klik disini</a></td>
+            <td><i class="fa-solid fa-trash"></i></td>
+        </tr>
+
+        <tr>
+            <td>GRACE HOPPER</td>
+            <td>Desember 9, 1906</td>
+            <td>Perempuan</td>
+            <td>Test</td>
+            <td><a href="#">Klik disini</a></td>
+            <td><i class="fa-solid fa-trash"></i></td>
+        </tr>
+
+        <tr>
+            <td>MARGARET HAMILTON</td>
+            <td>August 17, 1936</td>
+            <td>Perempuan</td>
+            <td>Test</td>
+            <td><a href="#">Klik disini</a></td>
+            <td><i class="fa-solid fa-trash"></i></td>
+        </tr>
+
+        <tr>
+            <td>JOHN CLARKE</td>
+            <td>June 24, 1985</td>
+            <td>Laki-Laki</td>
+            <td>Test</td>
+            <td><a href="#">Klik disini</a></td>
+            <td><i class="fa-solid fa-trash"></i></td>
+        </tr>
+
+    </table>
 
     <!--The end-->
 

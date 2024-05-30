@@ -1,0 +1,12 @@
+.container {
+    border: 5px solid #fdfdfd;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #676767;
+    padding: 10px;
+}
+
+.container .nav-menu{
+    display: flex;
+    flex-direction: row;
+}
